@@ -1,0 +1,483 @@
+﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props" Condition="Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProductVersion>
+    </ProductVersion>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{8527A8B9-717A-4C81-B975-A7FFA968916A}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>Project</RootNamespace>
+    <AssemblyName>Project</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <UseIISExpress>true</UseIISExpress>
+    <Use64BitIISExpress />
+    <IISExpressSSLPort>44330</IISExpressSSLPort>
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <UseGlobalApplicationHostFile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MSTest.TestFramework.3.7.0\lib\net462\Microsoft.VisualStudio.TestPlatform.TestFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions, Version=14.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\MSTest.TestFramework.3.7.0\lib\net462\Microsoft.VisualStudio.TestPlatform.TestFramework.Extensions.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+  </ItemGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
+      <HintPath>..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\lib\net45\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="1.png" />
+    <Content Include="6a44f0e35b10e6ed063eeebf7ed844f9.jpg" />
+    <Content Include="ABOUT ISSB.jpg" />
+    <Content Include="AccademicsQuestion.aspx" />
+    <Content Include="AdminFinalResult.aspx" />
+    <Content Include="AdminLogin.aspx" />
+    <Content Include="Audit.aspx" />
+    <Content Include="Disclaimer.aspx" />
+    <Content Include="ezgif.com-resize %282%29.gif" />
+    <Content Include="ezgif.com-resize.gif" />
+    <Content Include="Finalizingresult.aspx" />
+    <Content Include="FinalResult.aspx" />
+    <Content Include="images-2.jpg" />
+    <Content Include="IMAGES\12-120709_png-file-human-icon-png.png" />
+    <Content Include="IMAGES\airforce 123.png" />
+    <Content Include="IMAGES\Disclamer.png" />
+    <Content Include="IMAGES\image3.png" />
+    <Content Include="IMAGES\Instruction.PNG" />
+    <Content Include="IMAGES\LOGO ADMIN.png" />
+    <Content Include="IMAGES\reg.png" />
+    <Content Include="IMAGES\Registration Logo.png" />
+    <Content Include="IMAGES\Role.png" />
+    <Content Include="InsertMedicalInformation.aspx" />
+    <Content Include="Instruction.aspx" />
+    <Content Include="ISSB1.aspx" />
+    <Content Include="ISSB2.aspx" />
+    <Content Include="ISSB3.aspx" />
+    <Content Include="ISSBform.aspx" />
+    <Content Include="issbtest.aspx" />
+    <Content Include="MedicalAdminModule.aspx" />
+    <Content Include="Medicalpresentation.aspx" />
+    <Content Include="NavyRegistration.aspx" />
+    <Content Include="Non Verabal Question\Question 1.jpeg" />
+    <Content Include="Non Verabal Question\Question 10.jpeg" />
+    <Content Include="Non Verabal Question\Question 11.jpeg" />
+    <Content Include="Non Verabal Question\Question 12.jpeg" />
+    <Content Include="Non Verabal Question\Question 13.jpeg" />
+    <Content Include="Non Verabal Question\Question 14.jpeg" />
+    <Content Include="Non Verabal Question\Question 15.jpeg" />
+    <Content Include="Non Verabal Question\Question 16.jpeg" />
+    <Content Include="Non Verabal Question\Question 17.jpeg" />
+    <Content Include="Non Verabal Question\Question 2.jpeg" />
+    <Content Include="Non Verabal Question\Question 3.jpeg" />
+    <Content Include="Non Verabal Question\Question 4.jpeg" />
+    <Content Include="Non Verabal Question\Question 5.jpeg" />
+    <Content Include="Non Verabal Question\Question 6.jpeg" />
+    <Content Include="Non Verabal Question\Question 7.jpeg" />
+    <Content Include="Non Verabal Question\Question 8.jpeg" />
+    <Content Include="Non Verabal Question\Question 9.jpeg" />
+    <Content Include="NonVerbal.aspx" />
+    <Content Include="pakistan-army-pak-army.gif" />
+    <Content Include="PakistanArmedForces-WARHD-Trim-ezgif.com-video-to-gif-converter.gif" />
+    <Content Include="Pakistan_Army_Emblem.png" />
+    <Content Include="PhysicalTestAdminLogin.aspx" />
+    <Content Include="PhysicalTestAdminModule.aspx" />
+    <Content Include="PhysicaltestInsertrecordAdmin.aspx" />
+    <Content Include="Physicaltestpresentation.aspx" />
+    <Content Include="PhysicaltestUpdaterecordAdmin.aspx" />
+    <Content Include="PhysicalTestUserResult.aspx" />
+    <Content Include="PhysicaltestviewrecordAdmin.aspx" />
+    <Content Include="presenatation2.aspx" />
+    <Content Include="Index.aspx" />
+    <Content Include="presentation3.aspx" />
+    <Content Include="RecordsofTest.aspx" />
+    <Content Include="Registrationform.aspx" />
+    <Content Include="Screenshot 2024-05-17 011845.png" />
+    <Content Include="SelectRegistrationForm.aspx" />
+    <Content Include="Slip.aspx" />
+    <Content Include="test.aspx" />
+    <Content Include="Slip.txt" />
+    <Content Include="UpdateMedicalrecods.aspx" />
+    <Content Include="UserFinalResult.aspx" />
+    <Content Include="UserMedicalpresentation.aspx" />
+    <Content Include="ViewRecords.aspx" />
+    <Content Include="Web.config" />
+    <Content Include="presentation4.aspx" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="AccademicsQuestion.aspx.cs">
+      <DependentUpon>AccademicsQuestion.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AccademicsQuestion.aspx.designer.cs">
+      <DependentUpon>AccademicsQuestion.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminFinalResult.aspx.cs">
+      <DependentUpon>AdminFinalResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminFinalResult.aspx.designer.cs">
+      <DependentUpon>AdminFinalResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AdminLogin.aspx.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AdminLogin.aspx.designer.cs">
+      <DependentUpon>AdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Audit.aspx.cs">
+      <DependentUpon>Audit.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Audit.aspx.designer.cs">
+      <DependentUpon>Audit.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Disclaimer.aspx.cs">
+      <DependentUpon>Disclaimer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Disclaimer.aspx.designer.cs">
+      <DependentUpon>Disclaimer.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Finalizingresult.aspx.cs">
+      <DependentUpon>Finalizingresult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Finalizingresult.aspx.designer.cs">
+      <DependentUpon>Finalizingresult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="FinalResult.aspx.cs">
+      <DependentUpon>FinalResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="FinalResult.aspx.designer.cs">
+      <DependentUpon>FinalResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="InsertMedicalInformation.aspx.cs">
+      <DependentUpon>InsertMedicalInformation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="InsertMedicalInformation.aspx.designer.cs">
+      <DependentUpon>InsertMedicalInformation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Instruction.aspx.cs">
+      <DependentUpon>Instruction.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Instruction.aspx.designer.cs">
+      <DependentUpon>Instruction.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ISSB1.aspx.cs">
+      <DependentUpon>ISSB1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ISSB1.aspx.designer.cs">
+      <DependentUpon>ISSB1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ISSB2.aspx.cs">
+      <DependentUpon>ISSB2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ISSB2.aspx.designer.cs">
+      <DependentUpon>ISSB2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ISSB3.aspx.cs">
+      <DependentUpon>ISSB3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ISSB3.aspx.designer.cs">
+      <DependentUpon>ISSB3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ISSBform.aspx.cs">
+      <DependentUpon>ISSBform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ISSBform.aspx.designer.cs">
+      <DependentUpon>ISSBform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="issbtest.aspx.cs">
+      <DependentUpon>issbtest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="issbtest.aspx.designer.cs">
+      <DependentUpon>issbtest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MedicalAdminModule.aspx.cs">
+      <DependentUpon>MedicalAdminModule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MedicalAdminModule.aspx.designer.cs">
+      <DependentUpon>MedicalAdminModule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Medicalpresentation.aspx.cs">
+      <DependentUpon>Medicalpresentation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Medicalpresentation.aspx.designer.cs">
+      <DependentUpon>Medicalpresentation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NavyRegistration.aspx.cs">
+      <DependentUpon>NavyRegistration.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NavyRegistration.aspx.designer.cs">
+      <DependentUpon>NavyRegistration.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="NonVerbal.aspx.cs">
+      <DependentUpon>NonVerbal.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="NonVerbal.aspx.designer.cs">
+      <DependentUpon>NonVerbal.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhysicalTestAdminLogin.aspx.cs">
+      <DependentUpon>PhysicalTestAdminLogin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhysicalTestAdminLogin.aspx.designer.cs">
+      <DependentUpon>PhysicalTestAdminLogin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhysicalTestAdminModule.aspx.cs">
+      <DependentUpon>PhysicalTestAdminModule.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhysicalTestAdminModule.aspx.designer.cs">
+      <DependentUpon>PhysicalTestAdminModule.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhysicaltestInsertrecordAdmin.aspx.cs">
+      <DependentUpon>PhysicaltestInsertrecordAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhysicaltestInsertrecordAdmin.aspx.designer.cs">
+      <DependentUpon>PhysicaltestInsertrecordAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Physicaltestpresentation.aspx.cs">
+      <DependentUpon>Physicaltestpresentation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Physicaltestpresentation.aspx.designer.cs">
+      <DependentUpon>Physicaltestpresentation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhysicaltestUpdaterecordAdmin.aspx.cs">
+      <DependentUpon>PhysicaltestUpdaterecordAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhysicaltestUpdaterecordAdmin.aspx.designer.cs">
+      <DependentUpon>PhysicaltestUpdaterecordAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhysicalTestUserResult.aspx.cs">
+      <DependentUpon>PhysicalTestUserResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhysicalTestUserResult.aspx.designer.cs">
+      <DependentUpon>PhysicalTestUserResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="PhysicaltestviewrecordAdmin.aspx.cs">
+      <DependentUpon>PhysicaltestviewrecordAdmin.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="PhysicaltestviewrecordAdmin.aspx.designer.cs">
+      <DependentUpon>PhysicaltestviewrecordAdmin.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="presenatation2.aspx.cs">
+      <DependentUpon>presenatation2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="presenatation2.aspx.designer.cs">
+      <DependentUpon>presenatation2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Index.aspx.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Index.aspx.designer.cs">
+      <DependentUpon>Index.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="presentation3.aspx.cs">
+      <DependentUpon>presentation3.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="presentation3.aspx.designer.cs">
+      <DependentUpon>presentation3.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="presentation4.aspx.cs">
+      <DependentUpon>presentation4.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="presentation4.aspx.designer.cs">
+      <DependentUpon>presentation4.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="RecordsofTest.aspx.cs">
+      <DependentUpon>RecordsofTest.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="RecordsofTest.aspx.designer.cs">
+      <DependentUpon>RecordsofTest.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Registrationform.aspx.cs">
+      <DependentUpon>Registrationform.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Registrationform.aspx.designer.cs">
+      <DependentUpon>Registrationform.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="SelectRegistrationForm.aspx.cs">
+      <DependentUpon>SelectRegistrationForm.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SelectRegistrationForm.aspx.designer.cs">
+      <DependentUpon>SelectRegistrationForm.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Slip.aspx.cs">
+      <DependentUpon>Slip.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Slip.aspx.designer.cs">
+      <DependentUpon>Slip.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="test.aspx.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="test.aspx.designer.cs">
+      <DependentUpon>test.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UpdateMedicalrecods.aspx.cs">
+      <DependentUpon>UpdateMedicalrecods.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UpdateMedicalrecods.aspx.designer.cs">
+      <DependentUpon>UpdateMedicalrecods.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserFinalResult.aspx.cs">
+      <DependentUpon>UserFinalResult.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserFinalResult.aspx.designer.cs">
+      <DependentUpon>UserFinalResult.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="UserMedicalpresentation.aspx.cs">
+      <DependentUpon>UserMedicalpresentation.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="UserMedicalpresentation.aspx.designer.cs">
+      <DependentUpon>UserMedicalpresentation.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="ViewRecords.aspx.cs">
+      <DependentUpon>ViewRecords.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="ViewRecords.aspx.designer.cs">
+      <DependentUpon>ViewRecords.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="packages.config" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\BusinessLogicLayer\BusinessLogicLayer.csproj">
+      <Project>{f1b78c07-6914-4c01-9eb1-7112b3d38e71}</Project>
+      <Name>BusinessLogicLayer</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\DataAcessesLayer\DataAcessesLayer.csproj">
+      <Project>{7d7a2af0-653c-46ae-94bc-eea93d8bbb6b}</Project>
+      <Name>DataAcessesLayer</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Analyzer Include="..\packages\MSTest.Analyzers.3.7.0\analyzers\dotnet\cs\MSTest.Analyzers.CodeFixes.dll" />
+    <Analyzer Include="..\packages\MSTest.Analyzers.3.7.0\analyzers\dotnet\MSTest.Analyzers.dll" />
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>53377</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>https://localhost:44330/</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+  </ProjectExtensions>
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>This project references NuGet package(s) that are missing on this computer. Use NuGet Package Restore to download them.  For more information, see http://go.microsoft.com/fwlink/?LinkID=322105. The missing file is {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.2.0.1\build\net46\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.props'))" />
+  </Target>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

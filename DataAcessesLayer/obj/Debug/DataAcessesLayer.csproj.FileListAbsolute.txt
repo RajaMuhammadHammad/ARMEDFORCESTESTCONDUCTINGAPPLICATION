@@ -1,0 +1,6 @@
+C:\Users\DELL\Source\Repos\Project\DataAcessesLayer\bin\Debug\DataAcessesLayer.dll
+C:\Users\DELL\Source\Repos\Project\DataAcessesLayer\bin\Debug\DataAcessesLayer.pdb
+C:\Users\DELL\Source\Repos\Project\DataAcessesLayer\obj\Debug\DataAcessesLayer.csproj.AssemblyReference.cache
+C:\Users\DELL\Source\Repos\Project\DataAcessesLayer\obj\Debug\DataAcessesLayer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Source\Repos\Project\DataAcessesLayer\obj\Debug\DataAcessesLayer.dll
+C:\Users\DELL\Source\Repos\Project\DataAcessesLayer\obj\Debug\DataAcessesLayer.pdb

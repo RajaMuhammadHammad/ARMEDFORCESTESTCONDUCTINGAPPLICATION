@@ -1,0 +1,9 @@
+C:\Users\DELL\Source\Repos\Project\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.dll
+C:\Users\DELL\Source\Repos\Project\BusinessLogicLayer\bin\Debug\BusinessLogicLayer.pdb
+C:\Users\DELL\Source\Repos\Project\BusinessLogicLayer\bin\Debug\DataAcessesLayer.dll
+C:\Users\DELL\Source\Repos\Project\BusinessLogicLayer\bin\Debug\DataAcessesLayer.pdb
+C:\Users\DELL\Source\Repos\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.AssemblyReference.cache
+C:\Users\DELL\Source\Repos\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.csproj.CoreCompileInputs.cache
+C:\Users\DELL\Source\Repos\Project\BusinessLogicLayer\obj\Debug\Business.450209FB.Up2Date
+C:\Users\DELL\Source\Repos\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.dll
+C:\Users\DELL\Source\Repos\Project\BusinessLogicLayer\obj\Debug\BusinessLogicLayer.pdb
