@@ -1,4 +1,3 @@
-Here’s a well-structured and professional **README.md** for your GitHub repository:  
 
 ---
 
